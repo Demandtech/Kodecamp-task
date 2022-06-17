@@ -1,17 +1,12 @@
-//postWrapper
+
 let outputContainer = document.querySelector(".output-container");
-//postForm
 let  inputForm = document.querySelector("#input-form");
-//title
 let  inputTitle = document.querySelector("#input-title");
-//body
 let inputBody = document.querySelector("#input-body");
-//postBox
 let outputBox =[]
 
-let url =  "https://jsonplaceholder.typicode.com/posts/"
-
 //Reuse Data
+let url = "https://jsonplaceholder.typicode.com/posts/";
 function Reused(arr){
        let outputHolder = "";
        arr.forEach((post) => {
