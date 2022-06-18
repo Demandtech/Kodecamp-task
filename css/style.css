@@ -78,7 +78,6 @@ body{
   margin: 0 auto;
 }
 #counter{
- min-height: 30vh;
  color: #fff;
 }
 .counter-container{
@@ -407,10 +406,13 @@ form button:hover{
             height: 40vh;
 
          }
+         #counter{
+          height: 100px;
+         }
 
          .counter-container{
               width: 100%;
-              padding: 20px;
+              padding: 0px;
               flex-direction: column;
               gap: 20px
          }
@@ -468,10 +470,7 @@ form button:hover{
           width: 100%;
          
          }
-          
-
-           
-            .post{
+         .post{
               padding: 10px;
             }
             .output-container{
